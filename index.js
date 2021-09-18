@@ -15,7 +15,7 @@ request(url + api + "&units=Metric", { json: true }, (error, res, body) => {
         // do something with JSON, using the 'body' variable
 
         // console.log(res.body)
-        console.log(typeof body);
+        console.log(body);
         const { weather, main: temperature, name: countryName, wind } = body;
 
         console.log(weather[0]);
