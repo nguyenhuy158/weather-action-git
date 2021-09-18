@@ -46,8 +46,8 @@ jobs:
 
       - name: run index.js
         run: |
-          node index.js ${{ GITHUB_KEY }}
-          
+          node index.js ${{GITHUB_KEY}}
+
       - name: echo README.md
         run: |
           echo README.md
