@@ -34,13 +34,13 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-      
+
       - name: list all file
         run: ls -la
-      
+
       - name: rewrite file README.md
         run: echo "Nguyen Huy" >> README.md
-        
+
       - name: push
         run: |
           git config --global user.email "hyquaq@gmail.com"
@@ -48,3 +48,7 @@ jobs:
           git add README.md
           git commit -m "update README.md"
           git push
+
+      - name: run index.js
+        run: |
+          node index.js
