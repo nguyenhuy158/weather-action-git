@@ -29,11 +29,11 @@ request(url + api + "&units=Metric", { json: true }, (error, res, body) => {
             "- 🌱 I’m currently learning at TDTU\n" +
             "- 💞️ I’m looking to collaborate on ...\n" +
             "- 📫 How to reach me software development\n" +
-            "- ---" +
+            "- ---\n" +
             `${statusSky} ➖ ${descriptionSky}\n` +
             `![](http://openweathermap.org/img/wn/${urlIcon}.png)\n` +
             ` ${tempCurrent}°C🥰 ➖ ${tempMin}°C🧊  ${tempMax}°C🌡️\n` +
-            "- ---" +
+            "- ---\n" +
             "see yah 👋👋👋\n";
         console.log(readme);
 
