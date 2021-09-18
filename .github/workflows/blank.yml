@@ -40,3 +40,9 @@ jobs:
       
       - name: rewrite file README.md
         run: echo "Nguyen Huy" >> README.md
+        
+      - name: push
+        run: |
+          git add README.md
+          git commit -m "update README.md"
+          git push
