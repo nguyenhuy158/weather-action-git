@@ -44,14 +44,14 @@ jobs:
       # - name: rewrite file README.md
       #   run: echo "Nguyen Huy" >> README.md
 
-      # - name: push
-      #   run: |
-      #     git config --global user.email "hyquaq@gmail.com"
-      #     git config --global user.name "github action"
-      #     git add README.md
-      #     git commit -m "update README.md"
-      #     git push
-
       - name: run index.js
         run: |
           node index.js
+
+      - name: push
+        run: |
+          git config --global user.email "hyquaq@gmail.com"
+          git config --global user.name "github action"
+          git add README.md
+          git commit -m "update README.md"
+          git push
