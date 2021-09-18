@@ -3,7 +3,9 @@
 - 🌱 I’m currently learning at TDTU
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me software development
-- ---Clouds ➖ overcast clouds
+- ---
+Clouds ➖ overcast clouds
 ![](http://openweathermap.org/img/wn/04d.png)
  26.98°C🥰 ➖ 26.94°C🧊  26.98°C🌡️
-- ---see yah 👋👋👋
+- ---
+see yah 👋👋👋
