@@ -48,11 +48,11 @@ jobs:
       - name: output api
         run: echo $KEY
         env:
-          KEY: ${{ secrets.GITHUB_KEY }}
+          KEY: ${{ secrets.KEY }}
 
       - name: run index.js
         run: |
-          node index.js ${{ secrets.GITHUB_KEY }}
+          node index.js ${{ secrets.KEY }}
 
       - name: echo README.md
         run: |
