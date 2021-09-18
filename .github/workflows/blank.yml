@@ -46,7 +46,7 @@ jobs:
 
       - name: run index.js
         run: |
-          node index.js
+          node index.js $GITHUB_KEY
 
       - name: push
         run: |
