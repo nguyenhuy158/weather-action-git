@@ -1,23 +1,12 @@
-// // import fetch from "node-fetch";
-
-// const fetch = require("node-fetch");
-
-// const date = fetch(url, {method: "Get"})
-//     .then((response) => response.json())
-//     .then((json) => json.datetime)
-//     .catch((error) => console.log(error));
-
-// console.log(new Date())
-// console.log((new Date()).getHours() + ":" + (new Date()).getMinutes())
-
+//
 const request = require("request");
 const fs = require("fs");
 
-const url = "https://worldtimeapi.org/api/timezone/Asia/Bangkok";
+const url = "https://api.openweathermap.org/data/2.5/weather?q=vietnam&appid=";
+const api = process.argv[2];
 
-let options = { json: true };
-
-request(url, options, (error, res, body) => {
+// console.log(url + api);
+request(url + api + "&units=Metric", { json: true }, (error, res, body) => {
     if (error) {
         return console.log(error);
     }
@@ -26,12 +15,24 @@ request(url, options, (error, res, body) => {
         // do something with JSON, using the 'body' variable
 
         // console.log(res.body)
-        const date = res.body.datetime;
-        const currentDate = new Date(date.slice(0, date.indexOf(".")));
-        const time = currentDate.getHours() + ":" + currentDate.getMinutes();
-        console.log(time);
+        console.log(typeof body);
+        const { weather, main: temperature, name: countryName, wind } = body;
 
-        fs.writeFileSync("./README.md", time);
+        console.log( weather[0])
+
+        const { main: statusSky, description: descriptionSky, icon: urlIcon} = weather[0];
+        const {temp: tempCurrent, temp_min: tempMin, temp_max: tempMax} = temperature;
+        // console.log(weather.main)
+        const readme = `
+        # Weather current
+        ## ${statusSky} - ${descriptionSky}
+
+        ![](http://openweathermap.org/img/wn/${urlIcon}@2x.png)
+        current: ${tempCurrent} - [min: ${tempMin}/ max: ${tempMax}]
+        `;
+        console.log(readme);
+
+        fs.writeFileSync("./README.md", readme);
 
         // or
         // fs.writeFile("./data.json", time, function(err) {
