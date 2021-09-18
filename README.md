@@ -8,4 +8,4 @@ see yah 👋👋👋
 # Weather current
 ## Clouds - overcast clouds
 ![](http://openweathermap.org/img/wn/04d@2x.png)
- 25.98°C�� - [25.98°C- 28.94°C]
+ 26.98°C�� - [26.94°C- 26.98°C]
