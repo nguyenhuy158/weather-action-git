@@ -5,22 +5,14 @@ const fs = require("fs");
 const url = "https://api.openweathermap.org/data/2.5/weather?q=vietnam&appid=";
 
 const api = process.argv[2];
-console.log(process.argv);
-// console.log(url + api);
+
 request(url + api + "&units=Metric", { json: true }, (error, res, body) => {
     if (error) {
         return console.log(error);
     }
 
     if (!error && res.statusCode == 200) {
-        // do something with JSON, using the 'body' variable
-
-        // console.log(res.body)
-        console.log(body);
         const { weather, main: temperature, name: countryName, wind } = body;
-
-        console.log(weather[0]);
-
         const {
             main: statusSky,
             description: descriptionSky,
@@ -31,14 +23,18 @@ request(url + api + "&units=Metric", { json: true }, (error, res, body) => {
             temp_min: tempMin,
             temp_max: tempMax,
         } = temperature;
-        // console.log(weather.main)
         const readme =
-        `# Weather current
-## ${statusSky} - ${descriptionSky}
-
-![](http://openweathermap.org/img/wn/${urlIcon}@2x.png)
-current: ${tempCurrent} - [min: ${tempMin}/ max: ${tempMax}]
-        `;
+            "- 👋 Hi, I’m @hyquaq" +
+            "- 👀 I’m love coding and studying" +
+            "- 🌱 I’m currently learning at TDTU" +
+            "- 💞️ I’m looking to collaborate on ..." +
+            "- 📫 How to reach me software development" +
+            "[🔥🔥🔥My Website🔥🔥🔥](https://hyquaq.github.io/hyquaq/index.html)" +
+            "see yah 👋👋👋" +
+            "# Weather current" +
+            `## ${statusSky} - ${descriptionSky}` +
+            `![](http://openweathermap.org/img/wn/${urlIcon}@2x.png)` +
+            ` ${tempCurrent}°C�� - [${tempMin}°C- ${tempMax}°C]`;
         console.log(readme);
 
         fs.writeFileSync("./README.md", readme);
