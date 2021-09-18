@@ -18,17 +18,25 @@ request(url + api + "&units=Metric", { json: true }, (error, res, body) => {
         console.log(typeof body);
         const { weather, main: temperature, name: countryName, wind } = body;
 
-        console.log( weather[0])
+        console.log(weather[0]);
 
-        const { main: statusSky, description: descriptionSky, icon: urlIcon} = weather[0];
-        const {temp: tempCurrent, temp_min: tempMin, temp_max: tempMax} = temperature;
+        const {
+            main: statusSky,
+            description: descriptionSky,
+            icon: urlIcon,
+        } = weather[0];
+        const {
+            temp: tempCurrent,
+            temp_min: tempMin,
+            temp_max: tempMax,
+        } = temperature;
         // console.log(weather.main)
-        const readme = `
-        # Weather current
-        ## ${statusSky} - ${descriptionSky}
+        const readme =
+        `# Weather current
+## ${statusSky} - ${descriptionSky}
 
-        ![](http://openweathermap.org/img/wn/${urlIcon}@2x.png)
-        current: ${tempCurrent} - [min: ${tempMin}/ max: ${tempMax}]
+![](http://openweathermap.org/img/wn/${urlIcon}@2x.png)
+current: ${tempCurrent} - [min: ${tempMin}/ max: ${tempMax}]
         `;
         console.log(readme);
 
