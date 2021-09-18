@@ -37,3 +37,6 @@ jobs:
       
       - name: list all file
         run: ls -la
+      
+      - name: rewrite file README.md
+        run: echo "Nguyen Huy" >> README.md
