@@ -36,4 +36,4 @@ jobs:
           echo test, and deploy your project.
       
       - name: list all file
-       run: ls
+        run: ls
