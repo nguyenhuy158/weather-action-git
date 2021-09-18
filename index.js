@@ -24,17 +24,17 @@ request(url + api + "&units=Metric", { json: true }, (error, res, body) => {
             temp_max: tempMax,
         } = temperature;
         const readme =
-            "- 👋 Hi, I’m @hyquaq" +
-            "- 👀 I’m love coding and studying" +
-            "- 🌱 I’m currently learning at TDTU" +
-            "- 💞️ I’m looking to collaborate on ..." +
-            "- 📫 How to reach me software development" +
-            "[🔥🔥🔥My Website🔥🔥🔥](https://hyquaq.github.io/hyquaq/index.html)" +
-            "see yah 👋👋👋" +
-            "# Weather current" +
-            `## ${statusSky} - ${descriptionSky}` +
-            `![](http://openweathermap.org/img/wn/${urlIcon}@2x.png)` +
-            ` ${tempCurrent}°C�� - [${tempMin}°C- ${tempMax}°C]`;
+            "- 👋 Hi, I’m @hyquaq\n" +
+            "- 👀 I’m love coding and studying\n" +
+            "- 🌱 I’m currently learning at TDTU\n" +
+            "- 💞️ I’m looking to collaborate on ...\n" +
+            "- 📫 How to reach me software development\n" +
+            "[🔥🔥🔥My Website🔥🔥🔥](https://hyquaq.github.io/hyquaq/index.html)\n" +
+            "see yah 👋👋👋\n" +
+            "# Weather current\n" +
+            `## ${statusSky} - ${descriptionSky}\n` +
+            `![](http://openweathermap.org/img/wn/${urlIcon}@2x.png)\n` +
+            ` ${tempCurrent}°C�� - [${tempMin}°C- ${tempMax}°C]\n`;
         console.log(readme);
 
         fs.writeFileSync("./README.md", readme);
