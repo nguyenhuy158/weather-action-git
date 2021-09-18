@@ -1,0 +1,24 @@
+{
+  "name": "action-git",
+  "version": "1.0.0",
+  "description": "Nguyen Huy\r Nguyen Huy",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyquaq/action-git.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyquaq/action-git/issues"
+  },
+  "homepage": "https://github.com/hyquaq/action-git#readme",
+  "type":"module"
+}
