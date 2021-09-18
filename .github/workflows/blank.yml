@@ -44,6 +44,12 @@ jobs:
       # - name: rewrite file README.md
       #   run: echo "Nguyen Huy" >> README.md
 
+
+      - name: output api
+        run: echo $KEY
+        env:
+          KEY: ${{ secrets.GITHUB_KEY }}
+
       - name: run index.js
         run: |
           node index.js ${{ secrets.GITHUB_KEY }}
