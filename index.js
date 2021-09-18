@@ -3,8 +3,9 @@ const request = require("request");
 const fs = require("fs");
 
 const url = "https://api.openweathermap.org/data/2.5/weather?q=vietnam&appid=";
-const api = process.argv[2];
 
+const api = process.argv[2];
+console.log(process.argv);
 // console.log(url + api);
 request(url + api + "&units=Metric", { json: true }, (error, res, body) => {
     if (error) {
