@@ -4,8 +4,8 @@
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me software development
 - ---
-Rain ➖ very heavy rain
-![](http://openweathermap.org/img/wn/10n.png)
- 19.98°C🥰 ➖ 19.98°C🧊  20.94°C🌡️
+Rain ➖ heavy intensity rain
+![](http://openweathermap.org/img/wn/10d.png)
+ 19.98°C🥰 ➖ 18.94°C🧊  19.98°C🌡️
 - ---
 see yah 👋👋👋
