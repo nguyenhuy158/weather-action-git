@@ -5,7 +5,7 @@
 - 📫 How to reach me software development
 - ---
 Rain ➖ heavy intensity rain
-![](http://openweathermap.org/img/wn/10d.png)
- 18.98°C🥰 ➖ 18.98°C🧊  19.94°C🌡️
+![](http://openweathermap.org/img/wn/10n.png)
+ 17.98°C🥰 ➖ 17.98°C🧊  18.94°C🌡️
 - ---
 see yah 👋👋👋
