@@ -5,7 +5,7 @@
 - 📫 How to reach me software development
 - ---
 Clouds ➖ broken clouds
-![](http://openweathermap.org/img/wn/04d.png)
- 22.98°C🥰 ➖ 22.98°C🧊  23.94°C🌡️
+![](http://openweathermap.org/img/wn/04n.png)
+ 26.98°C🥰 ➖ 24.94°C🧊  26.98°C🌡️
 - ---
 see yah 👋👋👋
