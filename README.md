@@ -6,6 +6,6 @@
 - ---
 Clouds ➖ overcast clouds
 ![](http://openweathermap.org/img/wn/04n.png)
- 25.98°C🥰 ➖ 25.98°C🧊  25.98°C🌡️
+ 24.98°C🥰 ➖ 24.98°C🧊  24.98°C🌡️
 - ---
 see yah 👋👋👋
