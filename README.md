@@ -5,7 +5,7 @@
 - 📫 How to reach me software development
 - ---
 Clear ➖ clear sky
-![](http://openweathermap.org/img/wn/01d.png)
- 21.85°C🥰 ➖ 21.85°C🧊  21.85°C🌡️
+![](http://openweathermap.org/img/wn/01n.png)
+ 20.86°C🥰 ➖ 20.86°C🧊  20.86°C🌡️
 - ---
 see yah 👋👋👋
