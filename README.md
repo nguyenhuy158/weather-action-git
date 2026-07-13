@@ -4,8 +4,8 @@
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me software development
 - ---
-Clouds ➖ overcast clouds
-![](http://openweathermap.org/img/wn/04d.png)
- 27.72°C🥰 ➖ 27.72°C🧊  27.72°C🌡️
+Rain ➖ light rain
+![](http://openweathermap.org/img/wn/10n.png)
+ 22.89°C🥰 ➖ 22.89°C🧊  22.89°C🌡️
 - ---
 see yah 👋👋👋
