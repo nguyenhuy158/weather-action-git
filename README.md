@@ -5,7 +5,7 @@
 - 📫 How to reach me software development
 - ---
 Clouds ➖ overcast clouds
-![](http://openweathermap.org/img/wn/04n.png)
- 23.36°C🥰 ➖ 23.36°C🧊  23.36°C🌡️
+![](http://openweathermap.org/img/wn/04d.png)
+ 29.71°C🥰 ➖ 29.71°C🧊  29.71°C🌡️
 - ---
 see yah 👋👋👋
