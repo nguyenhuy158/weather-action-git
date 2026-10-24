@@ -14,4 +14,4 @@ make logs HOST=pipi JOB=weather-action-git N=20
 make doctor-q HOST=pipi
 ```
 
-Check the [pull requests](https://github.com/nguyenhuy158/weather-action-git/pulls?q=is%3Apr+is%3Amerged) and `README.md` after a changed report. A successful run with `weather unchanged` leaves the branch at the same commit. On failure, inspect the service log and any open `automation/weather-*` PR before rerunning; the job stops when an earlier weather PR remains open.
+Check the [pull requests](https://github.com/nguyenhuy158/weather-tracker/pulls?q=is%3Apr+is%3Amerged) and `README.md` after a changed report. A successful run with `weather unchanged` leaves the branch at the same commit. On failure, inspect the service log and any open `automation/weather-*` PR before rerunning; the job stops when an earlier weather PR remains open.
