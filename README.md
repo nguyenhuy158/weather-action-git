@@ -6,6 +6,6 @@
 - ---
 Clouds ➖ broken clouds
 ![](http://openweathermap.org/img/wn/04d.png)
- 27.98°C🥰 ➖ 27.98°C🧊  27.98°C🌡️
+ 29.86°C🥰 ➖ 29.86°C🧊  29.86°C🌡️
 - ---
 see yah 👋👋👋
