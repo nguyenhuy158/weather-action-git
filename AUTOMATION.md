@@ -9,8 +9,8 @@ The scheduler and job source live in the private [infra-vm-setup](https://github
 To trigger and inspect a run from the vm-setup checkout:
 
 ```bash
-ssh pipi 'sudo systemctl start job-weather-action-git.service'
-make logs HOST=pipi JOB=weather-action-git N=20
+ssh pipi 'sudo systemctl start job-weather-tracker.service'
+make logs HOST=pipi JOB=weather-tracker N=20
 make doctor-q HOST=pipi
 ```
 
